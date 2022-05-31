@@ -188,7 +188,7 @@ img {
   padding-bottom: 0;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/* .link::after, */
 .link.current::after {
   content: "";
   display: block;
@@ -197,18 +197,17 @@ img {
   height: 5px;
   top: 44px;
   left: 0;
-
-  transform: scale(0);
+  /* transform: scale(0); */
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background: #2196f3;
-  /* border: 1px solid #000000; */
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   border-radius: 2px;
 }
-
+/* .link:focus::after,
+.link:hover::after, */
 .link.current:focus::after,
 .link.current:hover::after {
-  transform: scale(1);
+  /* transform: scale(1); */
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
