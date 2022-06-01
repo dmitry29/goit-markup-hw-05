@@ -870,6 +870,7 @@ img-link {
 .card-content:hover,
 .img-link:focus .features-overlay-text,
 .img-link:hover .features-overlay-text {
+  
   transform: translateY(0);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 1;
